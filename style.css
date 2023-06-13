@@ -1,0 +1,128 @@
+body {
+    background-image: linear-gradient(135deg, #fffab2 10%, #e5044b 100%);
+    background-size: cover ;
+    background-repeat:no-repeat ;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+.boxform {
+    background-color: #ffffff;
+    width: 80%;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    flex: 1 1 100%;  
+    align-items: stretch;
+    justify-content: space-between;
+    box-shadow: 0 0 20px 6px #090b6ff4;
+}
+.boxform div{
+    height: auto;
+    }
+
+    .boxform .left {
+        color: black;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url("./microsoft-edge-6CNB3iD8M4E-unsplash.jpg");
+        overflow: hidden;
+    }
+
+    .boxform .left .overlay {
+        padding: 30px;
+        width: 100%;
+        height: 100%;
+        opacity: .6;
+        background: #fffab2;
+        overflow: hidden;
+        box-sizing: border-box;
+    }
+
+    .boxform .left .overlay h1 {
+        font-size: 7vmax;
+        line-height: 1;
+        font-weight: 900;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .boxform .left .overlay span p {
+        margin-top: 30px;
+        font-weight: 900;
+    }
+   
+    .boxform .left .overlay span a {
+        background: #983b8a;
+        color: black;
+        margin-top: 10px;
+        padding: 14px 50px;
+        border-radius: 100px;
+        display: inline-block;
+        box-shadow: 0px 3px 6px 1px #042b4657;
+    }
+
+    .boxform .left .overlay span a:last-child {
+        background: #fffab2
+        margin-left: ;
+    }
+
+    .boxform .right {
+        padding: 40px;
+        overflow: hidden;
+    }
+
+    .boxform .right h5 {
+        font-size: 6vmax;
+        line-height: 0;
+    }
+
+    .boxform .right p {
+        font-size: 14px;
+        color: #b0b3b9;
+    }
+
+    .boxform .right inputs {
+        overflow: hidden;
+    }
+
+    .boxform .right input {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        margin-top: 25px;
+        border: none;
+        border-bottom: 2px solid #b0b3b9;
+        outline: none;
+    }
+
+    .boxform .right .Remember-me--Forget-password {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .boxform .right .Remember-me--Forget-password input {
+        margin: 0;
+        margin-right: 7px;
+        width: auto;
+    }
+
+    button {
+        float: right;
+        font-size: 16px;
+        border: none;
+        outline: none;
+        background-image: linear-gradient(135deg, #70f570 10%,#49c628 100%);
+        color: #ffffff;
+        border-radius: 40px;
+        box-shadow: 0px 4px 20px 0px #49c628a6;
+        display: inline-block;
+    }
+
+    label {
+        display: inline-flex;
+        margin-left: -10px;
+        position: relative;
+    }
+
